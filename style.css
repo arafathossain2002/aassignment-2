@@ -1,66 +1,183 @@
 body{
-    background-color: aliceblue;
+    background-color: hsl(218, 31%, 95%);
 }
-section{
+.section{
     display: flex;
 }
 main{
     display: flex;
     justify-content: center;
-}    
+}
 .container{
-    display: flex;
     background-color: black;
-    padding-top: -100px;
     width: 1400px;
-    height: 650px;
+    height: 600px;
     border-radius: 10px;
+}
+.logo-container{
+    display: flex;
+    justify-content: center;
+    padding-left: 15px;
+}
+.logo-side{
+    padding-right: 50px;
+    
+}
+h1{
+    font-size: 52px;
+    width: 100%;
+    height: 100px;
+}
+.first-cont{
+    display: flex;
+    margin-bottom: 150px;
+    justify-content: space-between;
+}
+
+a{
+    text-decoration: none;
+    color: white;
+    margin-right: 30px;
+    padding-top: 30px;
+    font-size: 25px;
+    
+}
+.fa-magnifying-glass{
+    padding-top: 40px;
+    margin-left: 10px;
+    color: white;
+}
+button{
+    width: 220px;
+    height: 40px;
+    background-color: rgb(230, 31, 31);
+    font-size: large;
+    border-radius: 5px;
+}
+.nd-button{
+    padding-top: 100px;
+    display: grid;
+    grid-template-columns: repeat(1, 1fr);
+}
+.bd-20{
+    background-color: aliceblue;
+}
+
+.box-laft{
+    background-color: black;
+    display: flex;
+    justify-content: end;
+    padding-right: 80px;
+    height: 100px;
+    border-radius: 5px;
+}
+.box-1{
+    color: white;
+    width: 700px;
+    padding-top: 10px;
+    margin-right: 30px;
+    padding-left: 40px;
+   
 }
 h1{
     font-size: 70px;
-    color: white;
 }
-#first-p{
-    color: rgb(110, 141, 153);
+.brasil{
+    padding-right: 60px;
 }
-.first-button{
-    background-color: red;
-    color: white;
-    width: 180px;
-    height: 45px;
+.popular-c{
+    font-size: 50px;
+    text-align: center;
+}
+h3{
     font-size: 20px;
-    border-radius: 5px;
-    text-decoration: none;
 }
-.first-container{
-    padding-left: 160px;
-    margin-top: 80px;
+.item{
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    gap: 20px;
 }
-img{
-    padding-top: 40px;
-    margin-right: 20px;
-    height: 610px;
+.mini-item{
+    box-shadow: 10px 10px 10px;
+    border-radius: 10px;
+    padding: 15px;
+    width: 350px;
 }
-.all-button{
+.see-more-div{
+    display: grid;
+    justify-content: space-evenly;
+    margin-top: 30px;
+    text-align: 10px;
+    color: red; 
+}
+.last-h2{
+    font-size: 40px;
+}
+.last-div{
+    background-color: white;
+    width: 1400px;
+    display: flex;
+    grid-template-columns: repeat(2, 1fr);
+    gap: 150px;
+    justify-content: center;
+}
+.last-blog{
     display: grid;
     justify-content: center;
-    border-color: black;
 }
-.submit{
-    background-color: aliceblue;
-    color: rgb(13, 13, 13);
-    width: 180px;
-    height: 45px;
-    font-size: 20px;
-    border-radius: 5px;
+.last-img{
+    margin-left: 250px;
+    padding-top: 35px;
 }
-.blog-button{
-    background-color: red;
-    width: 180px;
-    height: 45px;
-    font-size: 20px;
-    border-radius: 5px;
+.last{
+    display: flex;
+    justify-content: space-around;
+    background-color: black;
+    height: 200px;
+    padding-left: 70px;
+    padding-right: 80px;
+    padding-top: 300px;
 }
-.transfer{
-    width: 80px;
+.text{
+    color: gray;
+    text-align: center;
 }
+.pvt{
+    font-size: 25px;
+}
+.last-section{
+    display: grid;
+    justify-content: center;
+}
+.joy{
+    padding-top: 20px;
+}
+.logo{
+    text-align: center;
+
+}
+.fa-twitter, .fa-youtube{
+    color: azure;
+}
+.goal{
+    color: aliceblue;
+    display: grid;
+    justify-content: center;
+}
+.tran{
+    background-color: whitesmoke;
+    width: 120px;
+    height: 30px;
+}
+
+@media screen and (max-width: 576px) {
+    .item{
+       grid-template-columns: repeat(1, 1fr);
+        }
+    }
+    /* minimum device */
+ @media screen and (min-width:577px) and (max-width: 992px) {
+    .mini-item{
+        grid-template-columns: repeat(2, 1fr);
+       
+    }
