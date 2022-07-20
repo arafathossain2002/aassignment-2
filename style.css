@@ -1,0 +1,66 @@
+body{
+    background-color: aliceblue;
+}
+section{
+    display: flex;
+}
+main{
+    display: flex;
+    justify-content: center;
+}    
+.container{
+    display: flex;
+    background-color: black;
+    padding-top: -100px;
+    width: 1400px;
+    height: 650px;
+    border-radius: 10px;
+}
+h1{
+    font-size: 70px;
+    color: white;
+}
+#first-p{
+    color: rgb(110, 141, 153);
+}
+.first-button{
+    background-color: red;
+    color: white;
+    width: 180px;
+    height: 45px;
+    font-size: 20px;
+    border-radius: 5px;
+    text-decoration: none;
+}
+.first-container{
+    padding-left: 160px;
+    margin-top: 80px;
+}
+img{
+    padding-top: 40px;
+    margin-right: 20px;
+    height: 610px;
+}
+.all-button{
+    display: grid;
+    justify-content: center;
+    border-color: black;
+}
+.submit{
+    background-color: aliceblue;
+    color: rgb(13, 13, 13);
+    width: 180px;
+    height: 45px;
+    font-size: 20px;
+    border-radius: 5px;
+}
+.blog-button{
+    background-color: red;
+    width: 180px;
+    height: 45px;
+    font-size: 20px;
+    border-radius: 5px;
+}
+.transfer{
+    width: 80px;
+}
